@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dell Gaming PC Desktop Computer - Intel Quad I5 up to 3.6GHz, GeForce GTX 1660 Ti 6G, 32GB DDR4 Memory, 128G SSD + 3TB, RGB Keyboard & Mouse, WiFi & Bluetooth 5.0, Win 10 Pro",
+    "price": 399.99,
+    "image": "https://m.media-amazon.com/images/I/71TZavqZXCL._AC_UY218_.jpg"
+  },
+  {
+    "name": "SkyTech Shadow 3.0 Gaming Computer PC Desktop - Ryzen 7 5700X 8-Core 3.4 GHz, RTX 3060 12GB, 1TB SSD, 16GB DDR4 3200, RGB Fans, AC WiFi, 600W Gold PSU, Windows 11 Home 64",
+    "price": 1299.99,
+    "image": "https://m.media-amazon.com/images/I/81NVDYTkRnL._AC_UY218_.jpg"
+  },
+  {
+    "name": "CyberpowerPC Gamer Supreme Liquid Cool Gaming PC, AMD Ryzen 9 7900X 4.7GHz, GeForce RTX 4080 16GB, 32GB DDR5, 1TB NVMe SSD, 2TB HDD, WiFi Ready & Win 11 Home",
+    "price": 2999.99,
+    "image": "https://m.media-amazon.com/images/I/718cJuIiCcL._AC_UY218_.jpg"
+  },
+  {
+    "name": "Acer Aspire TC-1760-UA92 Desktop | 12th Gen Intel Core i5-12400 6-Core Processor | 12GB 3200MHz DDR4 | 512GB NVMe M.2 SSD | 8X DVD | Intel Wireless Wi-Fi 6 AX201 | Bluetooth 5",
+    "price": 549.99,
+    "image": "https://m.media-amazon.com/images/I/71gx1HNTj1L._AC_UY218_.jpg"
+  },
+  {
+    "name": "DreamQuest Mini Pc Windows 11 Pro Intel 11th Gen N5105(up to 2.9GHz) Mini Desktop Computers 2.5 inch SSD,4K UHD,Dual WiFi,Gigabit Ethernet,BT4.2 Home-Business Mini",
+    "price": 189.99,
+    "image": "https://m.media-amazon.com/images/I/61cP6ICJBmL._AC_UY218_.jpg"
+  },
+  {
+    "name": "Lenovo IdeaCentre 3",
+    "price": 769.00,
+    "image": "https://i5.walmartimages.com/asr/11945c6b-f55a-4ef3-b02f-d0f1dc09efca.8b281dcd52309d0815e246e1bfcf4a9d.jpeg"
+  }
+]

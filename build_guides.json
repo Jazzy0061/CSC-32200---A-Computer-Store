@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Business",
+    "products": [
+      {
+        "name": "Ultra-compact mini PC with AMD Ryzen™ 7000 and 6000 H series processors and AMD Radeon ™ Graphics, supports Quad-4K displays and 8K resolution, 2x PCIe® Gen4x4 M.2 NVMe® SSD, 2.5 Gb LAN, WiFi 6E",
+        "price": 3999.99,
+        "image": "https://dlcdnwebimgs.asus.com/gain/73de4d20-2afb-4e61-bc2a-59ecb69d398f/w800/fwebp"
+      },
+      {
+        "name": "TUF Gaming VG32UQA1A Gaming Monitor –32 inch (31.5 inch viewable) 4K (3840 x 2160), Overclock to 160Hz (above 144Hz), ELMB Sync, Freesync Premium™, 1ms (MPRT), Variable Overdrive, 120% sRGB, DisplayHDR™ 400",
+        "price": 569.99,
+        "image": "https://dlcdnwebimgs.asus.com/gain/c422799a-9f48-4d81-a88a-1937f10244a6/w692"
+      },
+      {
+        "name": "ExpertCenter D9 SFF (D900SDR)",
+        "price": 899.99,
+        "image": "https://dlcdnwebimgs.asus.com/gain/be64fac6-ad92-46e2-a6f1-c867e082b741/w185/fwebp"
+      }
+    ]
+  },
+  {
+    "category": "Gaming",
+    "products": [
+      {
+        "name": "Alienware Aurora R15 Gaming Desktop",
+        "price": 4299.99,
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/alienware-aurora-r15-intel/media-gallery/lunar-light-wh-clear-cryo-tech/desktop-alienware-aurora-r15-white-cryo-clear-panel-gallery-1.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+      },
+      {
+        "name": "Alienware 500Hz Gaming Monitor - AW2524H",
+        "price": 829.99,
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw2524h/media-gallery/monitor-alienware-aw2524h-black-gallery-2.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+      },
+      {
+        "name": "Alienware x17 R2 Gaming Laptop",
+        "price": 2799.99,
+        "image": "https://i.dell.com/sites/csimages/app-merchandizing_images/all/fy24q1-awx17nt-gy.png"
+      }
+    ]
+  },
+  {
+    "category": "Academic",
+    "products": [
+      {
+        "name": "HP Pro x360 Fortis 11 inch G11 - Customizable",
+        "price": 661.65,
+        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08454187.png"
+      },
+      {
+        "name": "HP Z24n G3 WUXGA Display",
+        "price": 324.00,
+        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06982197.png?imwidth=270&imdensity=1"
+      },
+      {
+        "name": "HP ProDesk 600 Small Form Factor G6",
+        "price": 1574.00,
+        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06706231.png"
+      }
+    ]
+  }
+]

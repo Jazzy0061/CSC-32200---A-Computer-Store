@@ -11,3 +11,5 @@ user2,Customer,csb322
 user3,Customer,csc322
 user4,Customer,csd322
 user5,Customer,cse322
+bannedcustomer,BannedCustomer,1
+user6,BannedCustomer,csf322

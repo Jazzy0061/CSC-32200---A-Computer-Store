@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SanDisk - Flash memory card - 32 GB - Class 4 - SDHC",
+    "price": 12.99,
+    "image": "https://snpi.dell.com/snp/images/products/large/en-us~A7610910/A7610910.jpg"
+  },
+  {
+    "name": "SanDisk Extreme - Flash memory card (microSDXC to SD adapter included) - 64 GB - A2 / Video Class V30 / UHS-I U3 / Class10 - microSDXC UHS-I",
+    "price": 17.99,
+    "image": "https://snpi.dell.com/snp/images/products/large/en-us~AB759872/AB759872.jpg"
+  },
+  {
+    "name": "Gigastone 128GB 2-Pack SD Card UHS-I U1 Class 10 SDXC Memory Card High Speed Full HD Video Canon Nikon Sony Pentax Kodak Olympus Panasonic Digital Camera, Full Size SD Card",
+    "price": 32.98,
+    "image": "https://m.media-amazon.com/images/I/51mhIMIQneL._AC_UY218_.jpg"
+  },
+  {
+    "name": "SanDisk 64GB Ultra MicroSDXC UHS-I Memory Card with Adapter - 100MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUAR-064G-GN6MA ",
+    "price": 9.80,
+    "image": "https://m.media-amazon.com/images/I/7180ZAZmERL._AC_UL320_.jpg"
+  },
+  {
+    "name": "SanDisk 128GB Extreme PRO SDXC UHS-I Memory Card - C10, U3, V30, 4K UHD, SD Card - SDSDXXD-128G-GN4IN",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/81wwLOgkLgL._AC_UY218_.jpg"
+  },
+  {
+    "name": "SAMSUNG EVO Select Micro SD-Memory-Card + Adapter, 256GB microSDXC 130MB/s Full HD & 4K UHD, UHS-I, U3, A2, V30, Expanded Storage for Android Smartphones, Tablets, Nintendo",
+    "price": 17.99,
+    "image": "https://m.media-amazon.com/images/I/71tK21fYkDL._AC_UY218_.jpg"
+  }
+]
