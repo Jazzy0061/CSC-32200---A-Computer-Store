@@ -28,6 +28,7 @@ public class EmployeeFrame extends JFrame {
     private JSONArray cpusData;
     private JSONArray monitorsData;
     private JSONArray buildGuidesData;
+    private JFrame buildGuidesFrame;
 
     public EmployeeFrame(String name) throws MalformedURLException {
     	this.name=name;
@@ -231,67 +232,66 @@ public class EmployeeFrame extends JFrame {
         revalidate();
         repaint();
     }
+              
+            private void displayBuildGuides() {
+    try {
+        productPanel.removeAll();
+        JSONArray buildGuides = buildGuidesData; 
 
-    private void displayBuildGuides() {
-        try {
-            productPanel.removeAll();
-            JSONParser parser = new JSONParser();
-            Object obj = parser.parse(new FileReader("build_guides.json")); 
-            JSONArray buildGuides = (JSONArray) obj;
+        JPanel buildGuidesPanel = new JPanel(new GridLayout(buildGuides.size(), 1, 10, 10));
 
-            JPanel buildGuidesPanel = new JPanel(new GridLayout(buildGuides.size(), 1, 10, 10));
+        for (int i = 0; i < buildGuides.size(); i++) {
+            JSONObject buildGuide = (JSONObject) buildGuides.get(i);
+            String category = (String) buildGuide.get("category");
 
-            for (int i = 0; i < buildGuides.size(); i++) {
-                JSONObject buildGuide = (JSONObject) buildGuides.get(i);
-                String category = (String) buildGuide.get("category");
+            JPanel guidePanel = new JPanel(new BorderLayout());
 
-                JPanel guidePanel = new JPanel(new BorderLayout());
+            JLabel categoryLabel = new JLabel(category + " Build Guide", SwingConstants.CENTER);
+            guidePanel.add(categoryLabel, BorderLayout.NORTH);
 
-                JLabel categoryLabel = new JLabel(category + " Build Guide", SwingConstants.CENTER);
-                guidePanel.add(categoryLabel, BorderLayout.NORTH);
+            JSONArray products = (JSONArray) buildGuide.get("products");
 
-                JSONArray products = (JSONArray) buildGuide.get("products");
-
-                for (int j = 0; j < products.size(); j++) {
-                    JSONObject product = (JSONObject) products.get(j);
-                    String name = (String) product.get("name");
-                    double price = (double) product.get("price");
-                    String imageUrl = (String) product.get("image");
-                    URL url = null;
-                    try {
-                        url = new URL(imageUrl);
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                    }
-                    BufferedImage image = null;
-                    try {
-                        image = ImageIO.read(url);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    assert image != null;
-                    ImageIcon imageIcon = new ImageIcon(image);
-                    imageIcon.setImage(imageIcon.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT));
-                    JLabel nameLabel = new JLabel(name);
-                    JLabel priceLabel = new JLabel("$" + price);
-                    JLabel imageLabel = new JLabel(imageIcon);
-
-                    JPanel productPanel = new JPanel(new BorderLayout());
-                    productPanel.add(nameLabel, BorderLayout.NORTH);
-                    productPanel.add(imageLabel, BorderLayout.CENTER);
-                    productPanel.add(priceLabel, BorderLayout.SOUTH);
-
-                    guidePanel.add(productPanel, BorderLayout.CENTER);
+            for (int j = 0; j < products.size(); j++) {
+                JSONObject product = (JSONObject) products.get(j);
+                String name = (String) product.get("name");
+                double price = (double) product.get("price");
+                String imageUrl = (String) product.get("image");
+                URL url;
+                try {
+                    url = new URL(imageUrl);
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                    continue; // Skip this product if the URL is malformed
                 }
+                BufferedImage image = null;
+                try {
+                    image = ImageIO.read(url);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                assert image != null;
+                ImageIcon imageIcon = new ImageIcon(image);
+                imageIcon.setImage(imageIcon.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT));
+                JLabel nameLabel = new JLabel(name);
+                JLabel priceLabel = new JLabel("$" + price);
+                JLabel imageLabel = new JLabel(imageIcon);
 
-                buildGuidesPanel.add(guidePanel);
+                JPanel productPanel = new JPanel(new BorderLayout());
+                productPanel.add(nameLabel, BorderLayout.NORTH);
+                productPanel.add(imageLabel, BorderLayout.CENTER);
+                productPanel.add(priceLabel, BorderLayout.SOUTH);
+
+                guidePanel.add(productPanel, BorderLayout.CENTER);
             }
+
+            buildGuidesPanel.add(guidePanel);
+        }
 
             // Display the build guides in a scrollable pane
             JScrollPane scrollPane = new JScrollPane(buildGuidesPanel);
             scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 
-            JFrame buildGuidesFrame = new JFrame();
+            buildGuidesFrame = new JFrame(); 
             buildGuidesFrame.setTitle("Build Guides");
             buildGuidesFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             buildGuidesFrame.getContentPane().add(scrollPane);

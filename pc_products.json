@@ -3,21 +3,25 @@
     "name": "Victus by HP 15L Gaming Desktop TG02-1075t Bundle PC",
     "price": 1399.99,
     "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08010180.png?imwidth\u003d270\u0026imdensity\u003d1"
+    "comment": "user_768: This desktop is a powerhouse! It offers incredible performance with its high-end processor and ample RAM. Perfect for gaming and demanding tasks."
   },
   {
     "name": "Skytech Blaze 3.0 Gaming PC Desktop & Sceptre 30-inch Curved Gaming Monitor 21:9 2560x1080 Ultra Wide Ultra Slim HDMI Disp...\nSkytech Blaze 3.0 Gaming PC Desktop & Sceptre 30-inch Curved Gaming Monitor 21:9 2560x1080 Ultra Wide Ultra Slim HDMI DisplayPort up to 200Hz Build-in Speakers",
     "price": 1329.97,
     "image": "https://m.media-amazon.com/images/I/610LqMq7htL._AC_UY218_.jpg"
+    "comment": "user_8: Experience immersive gaming like never before with this desktop. Its dedicated graphics card and high refresh rate monitor deliver stunning visuals and smooth gameplay."
   },
   {
     "name": "Dell Optiplex 7020 Desktop Core i5 4th Gen 3.3GHz Processor 4GB RAM 500GB HDD CPU Keyboard Mouse 22 inch Monitor Free dos EX UK 3 Months Warranty",
     "price": 241.85,
     "image": "https://www.saruk.co.ke/images/48121623419937.png"
+    "comment": "user_878:Designed for creative professionals, this desktop offers excellent graphics performance and fast rendering times. Bring your artistic visions to life with ease"
   },
   {
     "name": "HP Pavilion Desktop TP01-3055xt, Windows 11 Home, Intel® Core™ i7, 16GB RAM, 512GB SSD, 2TB HDD",
     "price": 829.99,
     "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08077427.png?imwidth\u003d270\u0026imdensity\u003d1"
+    "comment": "user_456: The compact form factor of this desktop makes it perfect for small spaces without sacrificing performance. Ideal for home offices or dorm rooms." 
   },
   {
     "name": "Surface Pro 9",
@@ -28,5 +32,6 @@
     "name": "MSI Aegis RS 13NUE-451US Gaming Desktop Computer",
     "price": 1999.00,
     "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/msi_aegis_rs_13nue_451us_gaming_1681289157_1758568.jpg"
+    "comment": "user_324: Reliable and durable, this desktop is built to last. It's equipped with top-quality components, ensuring long-term performance and reliability" 
   }
 ]

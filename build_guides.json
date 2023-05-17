@@ -3,19 +3,19 @@
     "category": "Business",
     "products": [
       {
-        "name": "Ultra-compact mini PC with AMD Ryzen™ 7000 and 6000 H series processors and AMD Radeon ™ Graphics, supports Quad-4K displays and 8K resolution, 2x PCIe® Gen4x4 M.2 NVMe® SSD, 2.5 Gb LAN, WiFi 6E",
+        "name": "OptiPlex 7000 Small Form",
         "price": 3999.99,
-        "image": "https://dlcdnwebimgs.asus.com/gain/73de4d20-2afb-4e61-bc2a-59ecb69d398f/w800/fwebp"
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/products/desktops-and-all-in-ones/optiplex/7000-tsff/media-gallery/optiplex-7000sff-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,1&resMode=sharp2&size=402,402&chrss=full"
       },
       {
-        "name": "TUF Gaming VG32UQA1A Gaming Monitor –32 inch (31.5 inch viewable) 4K (3840 x 2160), Overclock to 160Hz (above 144Hz), ELMB Sync, Freesync Premium™, 1ms (MPRT), Variable Overdrive, 120% sRGB, DisplayHDR™ 400",
+        "name": "hyperx 16 gb ddr4-3733 mhz xmp rgb heatsink ram",
         "price": 569.99,
-        "image": "https://dlcdnwebimgs.asus.com/gain/c422799a-9f48-4d81-a88a-1937f10244a6/w692"
+        "image": "https://m.media-amazon.com/images/I/61aDeyMWIsL._AC_UF894,1000_QL80_.jpg"
       },
       {
-        "name": "ExpertCenter D9 SFF (D900SDR)",
+        "name": "512 GB WD Black PCIe® NVMe™ TLC M.2 ",
         "price": 899.99,
-        "image": "https://dlcdnwebimgs.asus.com/gain/be64fac6-ad92-46e2-a6f1-c867e082b741/w185/fwebp"
+        "image": "https://m.media-amazon.com/images/I/71Zbs3WN0tL._AC_UF894,1000_QL80_.jpg"
       }
     ]
   },
@@ -30,12 +30,12 @@
       {
         "name": "Alienware 500Hz Gaming Monitor - AW2524H",
         "price": 829.99,
-        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw2524h/media-gallery/monitor-alienware-aw2524h-black-gallery-2.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+        "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/alienware500hzfront.jpg"
       },
       {
-        "name": "Alienware x17 R2 Gaming Laptop",
+        "name": "Intel Core i5-9600K 3.7 GHz 6-Core Processor Silicon Power GAMING 16 GB (2 x 8 GB) DDR4-3200 CL16 ",
         "price": 2799.99,
-        "image": "https://i.dell.com/sites/csimages/app-merchandizing_images/all/fy24q1-awx17nt-gy.png"
+        "image": "https://m.media-amazon.com/images/I/71mINzpZ7QL._AC_UF894,1000_QL80_.jpg"
       }
     ]
   },
@@ -43,9 +43,9 @@
     "category": "Academic",
     "products": [
       {
-        "name": "HP Pro x360 Fortis 11 inch G11 - Customizable",
+        "name": "HP Workstation Z4 G4 Tower",
         "price": 661.65,
-        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08454187.png"
+        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08483904.png?imwidth=270&imdensity=1"
       },
       {
         "name": "HP Z24n G3 WUXGA Display",
@@ -53,9 +53,9 @@
         "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06982197.png?imwidth=270&imdensity=1"
       },
       {
-        "name": "HP ProDesk 600 Small Form Factor G6",
+        "name": "Intel - Core i9-13900K 13th Gen 24 cores 8 P-cores + 16 E-cores",
         "price": 1574.00,
-        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06706231.png"
+        "image": "https://i.ebayimg.com/images/g/Hu0AAOSw0r1h58tf/s-l640.jpg"
       }
     ]
   }
